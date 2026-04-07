@@ -14,7 +14,7 @@ const MessageSection = () => {
       type: "words, lines",
       linesClass: "paragraph-line",
     });
-
+ 
     gsap.to(firstMsgSplit.words, {
       color: "#faeade",
       ease: "power1.in",

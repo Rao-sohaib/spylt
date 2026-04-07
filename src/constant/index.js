@@ -13,7 +13,7 @@ const flavorlists = [
     name: "Cookies & Cream",
     color: "blue",
     rotation: "md:rotate-[-8deg] rotate-0",
-  },
+  }, 
   {
     name: "Peanut Butter Chocolate",
     color: "orange",

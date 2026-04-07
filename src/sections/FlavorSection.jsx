@@ -16,5 +16,5 @@ const FlavorSection = () => {
     </section>
   )
 }
-
+ 
 export default FlavorSection

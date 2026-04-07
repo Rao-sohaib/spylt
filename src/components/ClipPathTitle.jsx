@@ -21,4 +21,4 @@ const ClipPathTitle = ({ title, color, bg, className, borderColor }) => {
   );
 };
 
-export default ClipPathTitle;
+export default ClipPathTitle; 

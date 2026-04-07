@@ -10,7 +10,7 @@ This project demonstrates how to integrate **GSAP (GreenSock Animation Platform)
 
 ---
 
-## ⚛️ Why Use GSAP with React?
+## ⚛️ Why Use GSAP with React? 
 
 While React excels at managing UI state and structure, it doesn’t handle complex animations well on its own. GSAP bridges that gap by giving you fine-grained control over animations.
 

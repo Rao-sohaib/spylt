@@ -11,7 +11,7 @@ const FooterSection = () => {
         alt="footer-dip"
         className="w-full object-cover -translate-y-1"
       />
-
+ 
       <div className="xl:h-[110vh] relative  pt-[10vh]">
         <div className="overflow-hidden">
           <h1 className="general-title text-center text-milk py-5">

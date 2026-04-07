@@ -10,7 +10,7 @@ const FlavorTitle = () => {
     const secTextSplit = SplitText.create(".second-text-split h1", {
       type: "chars",
     });
-
+ 
     gsap.from(firstTextSplit.chars, {
       yPercent: 200,
       stagger: 0.02,

@@ -15,7 +15,7 @@ const BenefitSection = () => {
                 scrub: 1.5,
             },
         });
-
+ 
         revealTl.to(".benefit-section .first-title", {
             duration: 1,
             opacity: 1,

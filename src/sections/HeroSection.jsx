@@ -15,7 +15,7 @@ const HeroSection = () => {
     const tl = gsap.timeline({
       delay: 1,
     });
-
+ 
     tl.to(".hero-content", {
       opacity: 1,
       y: 0,
