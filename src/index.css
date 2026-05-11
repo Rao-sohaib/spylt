@@ -266,6 +266,24 @@ body::-webkit-scrollbar {
   }
 }
 
+.chat-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(82,49,34,0.35) transparent;
+}
+
+.chat-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-track {
+  background: rgba(245,234,216,0.08);
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(82,49,34,0.35);
+  border-radius: 999px;
+}
+
 .nutrition-section {
   background-color: #faeade00;
   background-image: radial-gradient(circle, #f3ece2, #dcccb0);

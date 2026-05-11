@@ -9,6 +9,7 @@ import NutritionSection from "./sections/NutritionSection";
 import BenefitSection from "./sections/BenefitSection";
 import TestimonialSection from "./sections/TestimonialSection";
 import FooterSection from "./sections/FooterSection";
+import ChatbotWidget from "./components/Chatbot/ChatbotWidget";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 const App = () => {
@@ -38,6 +39,8 @@ const App = () => {
           
         </div>
       </div>
+
+      <ChatbotWidget />
     </main>
   );
 };
