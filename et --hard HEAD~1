@@ -1,0 +1,198 @@
+[33mcommit baa75f2e6b5440b6566019df1ddff10db78bcef2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rao Sohaib <sohaibaptech9@gmail.com>
+Date:   Tue Apr 7 12:21:35 2026 -0700
+
+    commit
+
+[33mcommit 988275d444ff966f9d92b235e356b9064bcb010f[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Sat Sep 6 15:29:59 2025 +0500
+
+    💄 style(index): adjust hero title text size and leading
+    
+    - modify hero title text size for better responsiveness
+    - modify hero title leading for better readability on smaller screens
+
+[33mcommit 7d04f6c0094f7efb5d4b183ea9eec707c0d5cb66[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Sat Sep 6 15:25:46 2025 +0500
+
+    ✨ feat(testimonial): enhance testimonial section with mobile support
+    
+    - adjust styles and animations for mobile responsiveness using media queries
+    - remove unnecessary div in App.jsx
+
+[33mcommit e7984a6166c9220d57c7d6220b66697de750fae6[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Sat Sep 6 15:14:00 2025 +0500
+
+    📝 docs(readme): enhance README with GSAP introduction and benefits
+    
+    - add introduction to GSAP and its benefits
+    - include installation instructions
+    - explain why GSAP is useful with React
+
+[33mcommit 8733d8cbdc4edc43fe4bf40d021624f9203bacab[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Sat Sep 6 15:12:56 2025 +0500
+
+    ✨ feat(build): add vercel.json for SPA routing
+    
+    - configure single-page application routing on Vercel
+
+[33mcommit 6fd87bb244e20382e97712a92db8b4ea477e3157[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Sat Sep 6 15:11:02 2025 +0500
+
+    ✨ feat(hero): enhance hero section with responsive images and video
+    
+    - add useMediaQuery hook to handle responsive images and video
+    - implement conditional rendering for tablet and mobile devices
+    - use video background for desktop and static images for smaller screens
+
+[33mcommit 33f659fecbffbb5d8c57d7646e3e23fc09d50c2a[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Sat Sep 6 15:00:12 2025 +0500
+
+    ✨ feat(app): add footer section to main app
+    
+    - integrate FooterSection component into App.jsx to display website footer
+    - include social media links, company information, and newsletter subscription
+    - adjust copyright box styling for better responsiveness
+
+[33mcommit 809cc3dd819b0e51ab000df7e2ead6e7c62a3414[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 19:49:53 2025 +0500
+
+    🐛 fix(testimonial): remove markers from testimonial section
+    
+    - remove unnecessary markers for cleaner animation
+
+[33mcommit 96f84b80511add6948ce41ba81158a9533fca189[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 19:49:06 2025 +0500
+
+    ✨ feat(app): integrate testimonial section with video cards
+    
+    - add new testimonial section to display customer video reviews
+    - implement gsap animations for titles and video card entrance
+    - update css for testimonial section and video card styling
+    - fix video overlay issues by disabling pointer events
+    - adjust responsiveness for different screen sizes
+
+[33mcommit 53d488721417dd041ae96fd4e03bcafdbbe7ed41[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 18:42:25 2025 +0500
+
+    ✨ feat(benefit): add video pin section
+    
+    - integrate new video pin section component into benefit section
+    - create video pin section with gsap animation
+
+[33mcommit 4d58c6a278c07a3ff471b0bca07b67d1b2f96703[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 18:12:59 2025 +0500
+
+    ✨ feat(benefit): animate titles on scroll in benefit section
+      - add gsap animation to reveal titles on scroll
+      - change clipPath and opacity to create reveal effect
+
+[33mcommit 6c83d0ad24280bc041c6b14f6747f058f15bc78a[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 17:36:53 2025 +0500
+
+    ✨ feat(ui): add benefit section to showcase product advantages
+    
+    - add benefit section with key advantages of spylt product
+    - create clippathtitle component for visually appealing titles
+    - implement responsive design for benefit section on different screen sizes
+
+[33mcommit 5758f52f1493b0b35a1a726b6fa9b5b2c68e5fc9[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 16:58:26 2025 +0500
+
+    ✨ feat(nutrition): animate nutrition section with gsap
+    
+    - add text reveal animations for title and description
+    - implement scroll trigger to activate animations on section enter
+
+[33mcommit 272089317ab1489a8fb0c3f4e7fd5b9ec7b055d2[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 16:40:23 2025 +0500
+
+    ✨ feat(app): add nutrition section
+    
+    - Implemented a new section to showcase the nutritional benefits of the product.
+    - Included key nutrients with corresponding amounts.
+    - Added responsive design for mobile and larger screens using `react-responsive`.
+    - Adjusted the number of displayed nutrients based on screen size.
+    - Incorporated images and styled text to match the overall design.
+
+[33mcommit b1a77be4c5bd645fb6d656f6cb4c6bcf29cec8de[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 14:51:54 2025 +0500
+
+    ✨ feat(slider): add responsive scroll trigger for flavor slider
+    
+    - add useMediaQuery hook to check if the screen size is tablet
+    - disable scroll trigger animation when the screen size is tablet
+
+[33mcommit beb8bb73b6ccd83795d77cb56211660c499d4f06[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Fri Sep 5 14:45:53 2025 +0500
+
+    🐛 fix(slider): adjust slider text animation and smoothness
+    
+    - correct slider text animation
+    - improve scroll smoothness
+
+[33mcommit b54568d9277c6b5705ed60df550b558baad9f6a2[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Thu Sep 4 20:27:43 2025 +0500
+
+    ✨ feat(app): implement smooth scrolling with gsap
+    
+    - add ScrollSmoother to App.jsx for smoother user experience
+    - wrap content with smooth-wrapper and smooth-content divs
+    - disable dragging on flavor images
+    - add flavor text animation on scroll
+
+[33mcommit 9a9341e76fa48bb57b18be0680ac7ed7c706ed28[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Thu Sep 4 20:10:38 2025 +0500
+
+    ✨ feat(flavor): implement flavor slider section with gsap animation
+      - 【feat】add flavor slider component with flavor images and names
+      - 【feat】add constant data for flavor list
+      - 【feat】implement gsap animation for slider scrolling
+      - 【refactor】modify flavor title component for scroll trigger animation
+
+[33mcommit e9e0545d21f0d659238f6200aaa790c00e925803[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Thu Sep 4 19:24:04 2025 +0500
+
+    ✨ feat(flavor): add flavor section with title and slider
+    
+    - introduce flavor section to display available flavors
+    - create flavor title component with animated text
+    - implement flavor slider component for flavor selection
+    - integrate gsap for text animations in flavor title
+
+[33mcommit 69000759f846af637b281436c7c6574a2448cbf6[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Thu Sep 4 18:14:40 2025 +0500
+
+    ✨ feat(message): add message section with scroll animations
+    
+    - implement message section with dynamic text animations using gsap and splittext
+    - add scrolltrigger animations for messages, titles, and paragraphs
+    - update hero section scale for better visual appeal
+    - fix: correct title in index.html
+
+[33mcommit e114a38377262c9043d11ad77c74da723be06652[m
+Author: Hammad <127682041+Hammad005@users.noreply.github.com>
+Date:   Thu Sep 4 16:02:20 2025 +0500
+
+    ✨ feat(hero): implement hero section scroll animation
+    
+    - add gsap and scrolltrigger for smooth 
